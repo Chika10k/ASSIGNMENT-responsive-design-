@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCRATCH WEBSITE</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+        <div class="navbar">
+            <div class="container flex-nav">
+                <div class="nav-header">
+                    <h2>WEB<span>LOGO</span></h2>
+                    <button class="nav-toggle" id="navtoggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <nav class="nav-links" id="navlinks">
+                    <ul>
+                        <li class="nav-link"><a href="#">Home</a></li>
+                        <li class="nav-link"><a href="#">Product</a></li>
+                        
+                    </ul>
+                </nav>
+        </div>
+        
+        </div>
+    </header>
+    <div class="lorem">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque perspiciatis cum dolorum quisquam? Quia dolor corporis vero assumenda, asperiores dolorum tenetur perspiciatis inventore recusandae illum. Voluptatibus, aut id? Obcaecati voluptates atque, voluptatum officiis labore necessitatibus! Voluptas suscipit inventore, temporibus a, aut odit quisquam libero sed minima nam illum beatae vel consectetur aspernatur cupiditate cum? Magnam ipsa id, optio iusto officia consectetur labore praesentium, ad delectus cumque debitis eligendi possimus quis, tenetur eum unde aperiam? Libero explicabo, dignissimos dicta error itaque vitae in, culpa laboriosam esse enim ut tempora quas magni deserunt veniam voluptatem corporis minus porro ad asperiores ducimus ab est eum! Nam aut sapiente sequi maxime nostrum vel excepturi, pariatur, doloremque commodi dicta nemo molestias laudantium. Id et quam incidunt impedit atque magni cumque accusamus, aperiam nemo qui nostrum placeat temporibus animi sint unde expedita eum architecto molestias quia maiores cum, voluptate facilis! Perferendis ut cumque atque laboriosam nobis?</p>
+    </div>
+    
+
+    <script>
+        const navToggle = document.querySelector("navToggle")
+        const nav = document.querySelector("nav-links")
+
+
+        navToggle.add addEventListener("click", () => {
+            nav.classList.toggle("nav-open")
+        })
+    </script>
+
+</body>
+</html>
